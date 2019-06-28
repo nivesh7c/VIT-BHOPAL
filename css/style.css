@@ -1,0 +1,351 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(w.jpg);
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar 
+{
+    background-image: linear-gradient(to right, black,black);
+    padding: 0 !impotant;
+}
+navbar-brand img
+{
+    height: 40px;
+    width: auto;
+    padding-left: 20px;
+}
+.navbar-nav li 
+{
+    padding: 0 10px;
+}
+.navbar-nav li a 
+{
+    color: white!important;
+    font-weight: 600;
+    float: right;
+    text-align:right;
+}
+.fa-bars
+{
+    color: white;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#stripes{
+width:100%;
+height: 100%;
+overflow: hidden;
+transform-origin: 0;
+transform: skewY(-25.5deg);
+background: -webkit-linear-gradient(300deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%);
+background: linear-gradient(150deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%);
+
+}
+
+#stripes, #stripes span{
+  position: absolute;
+}
+
+#stripes span{
+  height: 40px;
+}
+
+#stripes :nth-child(1){
+  width: 50%;
+  left: 50%;
+  top:40px;
+  background:#4c29ff;
+}
+
+#stripes :nth-child(2){
+  width: 14%;
+  right: 0;
+  bottom:40px;
+  background: #2be7ff;
+}
+
+#stripes :nth-child(3){
+  width: 25%;
+  bottom: 0;
+  right: 0;
+  background: #a1ffc8;
+}
+
+@media (min-width:670px){
+  #stripes span{
+    height:150px;
+  }
+  #stripes :nth-child(1){
+    top: 0;
+  }
+  #stripes :nth-child(2){
+    width: 16.66667%;
+    top: 300px;
+    bottom: auto;
+    background: #0dcfff;
+  }
+  #stripes :nth-child(3){
+    width: 33.33333%;
+    right: auto;
+    background: #11bdff;
+  }
+}
+
+@media (min-width: 880px){
+  #stripes span{
+    height: 190px;
+  }
+
+  #stripes :nth-child(1){
+    width: 33.33333%;
+    left: -16.66666%;
+    background: #53f;
+  }
+
+  #stripes :nth-child(2){
+    width: 33.33333%;
+    top: 0;
+    left: 16.66666%;
+    right: auto;
+    background: #4553ff;
+  }
+
+  #stripes :nth-child(3){
+    width: 33.33333%;
+    left: 49.99999%;
+    bottom: auto;
+    background: #4f40ff;
+  }
+
+  #stripes :nth-child(4){
+    width: 33.33333%;
+    top: 380px;
+    right: -16.66666%;
+    background: #25ddf5;
+  }
+
+  #stripes :nth-child(5){
+    width: 33.33333%;
+    bottom: 0;
+    background: #1fa2ff;
+  }
+}
+
+.promo-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+    .play-btn
+{
+    width: 45px;
+    margin: 20px;
+}
+        #banner a
+{
+    color: black;
+    text-decoration: 
+}
+    .img-fluid
+{
+    margin-bottom: 100px;
+    
+}
+.card-deck
+     {
+         margin-top: 100px;
+     }
+
+
+
+
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
+}
+
+
+
+
+
+
+
+
+
+#myFooter {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
